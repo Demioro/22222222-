@@ -101,8 +101,8 @@ class DiscordVoiceAFK:
                     "d": {
                         "guild_id": self.guild_id,
                         "channel_id": self.channel_id,
-                        "self_mute": True,
-                        "self_deaf": True,
+                        "self_mute": False,
+                        "self_deaf": False,
                         "self_video": False
                     }
                 }
